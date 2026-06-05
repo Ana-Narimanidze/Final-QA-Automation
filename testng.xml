@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Final QA Automation Suite">
+
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="Final Project Tests">
+        <classes>
+            <class name="ge.skillwill.qatest.tests.contact.ContactFormTest"/>
+            <class name="ge.skillwill.qatest.tests.authentication.ForgotPasswordTest"/>
+            <class name="ge.skillwill.qatest.tests.cart.DiscountedProductCartTest"/>
+            <class name="ge.skillwill.qatest.tests.cart.InvalidCouponTest"/>
+            <class name="ge.skillwill.qatest.tests.chat.LiveChatTest"/>
+        </classes>
+    </test>
+
+</suite>
