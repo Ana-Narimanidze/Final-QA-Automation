@@ -4,8 +4,7 @@
 
 This project was created as part of my Final QA Automation assignment.
 
-It includes manual testing, bug reports, and automated test cases built with Java, Selenide, and TestNG.
-
+It includes manual testing, bug reporting, and automated test cases built with Java, Selenide, and TestNG.
 
 ### Trello Board
 
@@ -27,7 +26,7 @@ https://trello.com/invite/b/6a22fa5d9ece95f381c88e27/ATTIda0b60ff61802c486aa8e1a
 * tests
 * utils
 
-The project follows the Page Object Model (POM) structure and uses reusable step classes to keep the code clean and easy to understand.
+The project follows the Page Object Model (POM) structure and uses reusable step classes to keep the code organized and easy to maintain.
 
 ## Automated Test Cases
 
@@ -41,7 +40,7 @@ The following test cases were automated:
 
 ## Manual Testing
 
-For the manual testing part, I prepared:
+As part of the manual testing process, I prepared:
 
 * 10 Test Cases
 * 5 Failed Test Cases
@@ -49,6 +48,8 @@ For the manual testing part, I prepared:
 * 5 Bug Reports
 
 Screenshots and video recordings were attached as evidence for the executed tests and reported bugs.
+
+A detailed QA Test Report is also included in this repository.
 
 ## Run Tests
 
