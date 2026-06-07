@@ -2,11 +2,16 @@
 
 ## Overview
 
-This project is a Final QA Automation Project built using Java, Selenide, TestNG, Maven, and Allure Report.
+This project was created as part of my Final QA Automation assignment.
 
-The project demonstrates automated UI testing of an e-commerce website using the Page Object Model (POM) design pattern and Allure reporting.
+It includes manual testing, bug reports, and automated test cases built with Java, Selenide, and TestNG.
 
-## Tech Stack
+
+### Trello Board
+
+https://trello.com/invite/b/6a22fa5d9ece95f381c88e27/ATTIda0b60ff61802c486aa8e1a922a0176bCFC1AC5D/final-qa-automation
+
+## Technologies Used
 
 * Java 17
 * Maven
@@ -17,64 +22,33 @@ The project demonstrates automated UI testing of an e-commerce website using the
 
 ## Project Structure
 
-src/test/java
-
 * pages
-
-  * authentication
-  * cart
-  * chat
-  * contact
-
 * steps
-
-  * authentication
-  * cart
-  * chat
-  * contact
-
 * tests
-
-  * authentication
-  * cart
-  * chat
-  * contact
-
 * utils
 
-  * Constants
-  * TestData
+The project follows the Page Object Model (POM) structure and uses reusable step classes to keep the code clean and easy to understand.
 
-## Implemented Test Cases
+## Automated Test Cases
 
-### Authentication
-
-* TC-02 Forgot Password Validation
-
-### Contact Form
+The following test cases were automated:
 
 * TC-01 Contact Form Validation
-
-### Shopping Cart
-
+* TC-02 Forgot Password Validation
 * TC-03 Discounted Product Cart Validation
-
-### Coupon Validation
-
+* TC-09 Live Chat Message Validation
 * TC-10 Invalid Coupon Validation
 
-### Live Chat
+## Manual Testing
 
-* TC-09 Live Chat Message Validation
+For the manual testing part, I prepared:
 
-## Features
+* 10 Test Cases
+* 5 Failed Test Cases
+* 5 Passed Test Cases
+* 5 Bug Reports
 
-* Page Object Model (POM)
-* Reusable Step Classes
-* Test Data Management
-* Allure Reporting
-* Clean Project Structure
-* Git Version Control
+Screenshots and video recordings were attached as evidence for the executed tests and reported bugs.
 
 ## Run Tests
 
@@ -91,3 +65,4 @@ allure serve target/allure-results
 ## Author
 
 Ana Narimanidze
+
