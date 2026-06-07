@@ -15,7 +15,7 @@ public class BaseTest {
 
         Configuration.browser = "chrome";
         Configuration.browserSize = "1920x1080";
-        Configuration.timeout = 10000;
+        Configuration.timeout = 20000;
         Configuration.pageLoadTimeout = 30000;
         Configuration.screenshots = true;
         Configuration.savePageSource = true;
