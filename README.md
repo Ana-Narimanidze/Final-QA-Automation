@@ -129,7 +129,5 @@ During this project I practiced:
 
 **Ana Narimanidze**
 
-Junior QA Automation Engineer
-
 GitHub:
 https://github.com/Ana-Narimanidze
