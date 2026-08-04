@@ -1,61 +1,107 @@
 # Final QA Automation Project
 
-## Overview
+## Project Overview
 
-This project was created as part of my Final QA Automation assignment.
+This repository contains my final QA Automation project completed during my QA Automation training.
 
-It includes manual testing, bug reporting, and automated test cases built with Java, Selenide, and TestNG.
+The project combines manual testing and UI automation testing using Java, Selenide, TestNG, and Allure Report. It follows the Page Object Model (POM) design pattern to keep the test code organized, reusable, and easy to maintain.
 
-### Trello Board
+---
 
-https://trello.com/invite/b/6a22fa5d9ece95f381c88e27/ATTIda0b60ff61802c486aa8e1a922a0176bCFC1AC5D/final-qa-automation
+## Trello Board
 
-## Technologies Used
+Project planning and task management:
 
-* Java 17
-* Maven
-* Selenide
-* TestNG
-* Allure Report
-* Git & GitHub
+https://trello.com/b/DVR8hD6u/final-qa-automation
+
+---
+
+## Key Features
+
+- Manual testing
+- UI automation testing
+- Page Object Model (POM)
+- Reusable Page Objects
+- Reusable test methods
+- TestNG test execution
+- Allure reporting
+- Clean project structure
+
+---
+
+## Technologies
+
+| Technology | Purpose |
+|------------|---------|
+| Java | Programming Language |
+| Maven | Build and Dependency Management |
+| Selenide | UI Test Automation |
+| Selenium WebDriver | Browser Automation |
+| TestNG | Test Framework |
+| Allure Report | Test Reporting |
+
+---
 
 ## Project Structure
 
-* pages
-* steps
-* tests
-* utils
+```text
+src
+├── pages
+├── tests
+├── steps
+└── utils
+```
 
-The project follows the Page Object Model (POM) structure and uses reusable step classes to keep the code organized and easy to maintain.
+- **pages** – Page Object classes
+- **tests** – Test classes
+- **steps** – Reusable test steps
+- **utils** – Helper classes
 
-## Automated Test Cases
+---
 
-The following test cases were automated:
+## Automated Test Scenarios
 
-* TC-01 Contact Form Validation
-* TC-02 Forgot Password Validation
-* TC-03 Discounted Product Cart Validation
-* TC-09 Live Chat Message Validation
-* TC-10 Invalid Coupon Validation
+The automated tests cover the following functionality:
+
+- Contact Form
+- Forgot Password
+- Discounted Product
+- Live Chat
+- Invalid Coupon
+
+---
 
 ## Manual Testing
 
-As part of the manual testing process, I prepared:
+This project also includes:
 
-* 10 Test Cases
-* 5 Failed Test Cases
-* 5 Passed Test Cases
-* 5 Bug Reports
+- Test Cases
+- Bug Reports
+- Test Execution Results
 
-Screenshots and video recordings were attached as evidence for the executed tests and reported bugs.
+---
 
-A detailed QA Test Report is also included in this repository.
+## Getting Started
 
-## Run Tests
+### Clone the repository
+
+```bash
+git clone https://github.com/Ana-Narimanidze/Final-QA-Automation.git
+```
+
+### Install dependencies
+
+```bash
+mvn clean install
+```
+
+### Run all tests
 
 ```bash
 mvn clean test
 ```
+
+---
 
 ## Generate Allure Report
 
@@ -63,7 +109,27 @@ mvn clean test
 allure serve target/allure-results
 ```
 
+---
+
+## What I Practiced
+
+During this project I practiced:
+
+- Writing manual test cases
+- Reporting bugs
+- Creating UI automation tests
+- Working with the Page Object Model (POM)
+- Using TestNG
+- Creating Allure Reports
+- Organizing an automation project with Maven
+
+---
+
 ## Author
 
-Ana Narimanidze
+**Ana Narimanidze**
 
+Junior QA Automation Engineer
+
+GitHub:
+https://github.com/Ana-Narimanidze
